@@ -1,0 +1,22 @@
+.title {
+  text-align: center;
+}
+.sub-title {
+  font-size: 50px;
+}
+.sub-sub {
+  font-size: 30px;
+}
+.box {
+  text-align: center;
+  background-color: greenyellow;
+}
+.food {
+  font-weight: bold;
+}
+.food-title {
+  font-size: 30px;
+}
+.method {
+  font-size: 30px;
+}
