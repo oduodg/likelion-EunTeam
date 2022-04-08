@@ -1,43 +1,12 @@
-
-*{
-    box-sizing: border-box;
-}
-
-header{
-    width: 100%;
-    height: 130px;
-    background-color: #efefef;
-    display: flex;
-    
-}
-
-article{
-    align-items: center;
-    flex-direction: column;
-}
-
-article img{
-    width: 30vw;
-}
-
-footer{
-    border-top: 1px solid #ddd;
-    height: 250px;
-    background-color: #efefef;
-}
-
-.navbar{
-    display: flex;
-    align-items: center;
-}
-
 .gnb{
-    flex-direction: row;
+    display: flex;
+    padding:  4px 24px;
+    align-items: center;
+    background-color: transparent;
 }
 
-.recipe-items{
-    padding: 25px;
-
-    background-color: rgb(219, 235, 148);
-    border: 1px solid #3b8616;
+.gnb-items{
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
 }
