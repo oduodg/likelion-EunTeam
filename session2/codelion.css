@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+body,h1,h2 {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    min-width: fit-content;
+}
+
+h1 {
+    font-size:50px;
+    font-weight: bold;
+    font-style: italic;
+    text-align:center;
+}
+
+.food-name {
+    font-size:40px;
+    color:#7c7c7c;
+    font-weight: bold;
+}
+
+h2 {
+    font-size:40px;
+    color:#282828;
+    font-weight: lighter;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ebebeb;   
+    padding-bottom: 5px;
+}
+
+.food-material {
+    font-size:30px;
+    line-height: 16px;
+}
+
+.food-mading {
+    font-size:20px;
+}
+
