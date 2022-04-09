@@ -1,52 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
-*{
+* {
     box-sizing: border-box;
+    font-family: "Noto Sans KR";
 }
 
-header{
+
+header {
     width: 100%;
     height: 130px;
     background-color: #efefef;
     display: flex;
 }
 
-article{
+#navbar {
+    overflow: hidden;
+}
+
+#navbar li {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+/* stick navbar when scrolling down*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+article {
     align-items: center;
+    text-align: center;
     flex-direction: column;
 }
 
-article img{
+article img {
     width: 30vw;
 }
 
-footer{
+footer {
     border-top: 1px solid #ddd;
     height: 250px;
     background-color: #efefef;
 }
 
-.logo{
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+input{
+    width: 100%;
+    height: 8vh;
+    padding: 20px;
+    border: 1px solid rgb(172, 172, 172) ;
+    writing-mode: horizontal-tb;
+    text-align: start;
+    display: inline-block;
+}
+
+.article-intro{
+    float: auto;
+    display: block;
+    text-align: center;
+   
+}
+
+.logo {
     flex: none;
 }
 
-.navbar{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.recipe-top {
+    width: 8vw;
 }
 
-ul{
-    float: right;
-}
-
-  .gnb-items{
-    flex: none;
-    margin-left:auto;
-}
-
-.recipe-items{
-    padding: 25px;
-
+.recipe-items {
+    padding: 45px;
     background-color: rgb(219, 235, 148);
     border: 1px solid #3b8616;
+
+    text-align: center;
+}
+
+.summary{
+    border: 1px solid rgb(238, 238, 238) ;
+}
+
+.comment{
+    background-color:  #f9f9f9;
+    padding: 40px;
+    border: 1px solid #dedede;
+}
+
+.stars{
+    color:#1560b6
+}
+
+.re-left{
+    min-width: 68px;
+    padding-left: 88px;
+    background: url(src/btn_cirLeft-default.gif) 0 0 no-repeat;
 }
