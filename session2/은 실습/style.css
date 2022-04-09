@@ -1,0 +1,115 @@
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.introduction p {
+  text-align: center;
+  line-height: 150%;
+}
+
+.introWrap {
+  display: block;
+  text-align: center;
+}
+
+.introWrap img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+}
+.reInfo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+p {
+  color: gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.subTitle {
+  display: block;
+  text-align: center;
+  color: grey;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+
+.mate-img {
+  display: block;
+  text-align: center;
+}
+.ingredient__box {
+  background-color: rgb(219, 235, 148);
+  border: 1px solid #3b8616;
+  padding: 25px 30px;
+  color: #222;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 80%;
+}
+.centerBold {
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+}
+.textAlcenter {
+  text-align: center;
+}
+figcaption {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.recipe__box {
+  border: #f0f0f0 solid 1px;
+  border-radius: 10px 10px 0px 0px;
+  width: 80%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  margin: 0px;
+  background-color: skyblue;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px 10px 0px 0px;
+}
+.recipe {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recipe img {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.conclusion {
+  text-align: center;
+  line-height: 150%;
+}
