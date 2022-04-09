@@ -11,18 +11,20 @@
 
 <body>
     <header id="navbar">
-        <div class="logo"><img src="src/logo.png" alt=""></div>
-        <div>
-            <ul class="nav-items">
-                <li><a href="#brand">브랜드</a></li>
-                <li><a href="#product">제품</a></li>
-                <li><a href="#recipe">레시피</a></li>
-                <li><a href="#News">뉴스</a></li>
-            </ul>
+        <div class="nav-container">
+            <img class="logo" src="src/logo.png" alt="">
+            <div>
+                <ul class="nav-items">
+                    <li><a href="#brand">브랜드</a></li>
+                    <li><a href="#product">제품</a></li>
+                    <li><a href="#recipe">레시피</a></li>
+                    <li><a href="#News">뉴스</a></li>
+                </ul>
+            </div>
         </div>
     </header>
-    <div id="navbar">
-        <ul class="row-nav">
+    <div id="navbar" class="low-nav">
+        <ul class="low-nav-items">
             <li>청정원레시피</li>
             <li>식탁이있는풍경</li>
             <li>푸드캐스트</li>
@@ -30,13 +32,14 @@
     </div>
     <article>
         <img class="recipe-top" src="src/img_recipetop.jpg" alt="">
+        
+        <h1>부드럽고 잡내없는 돼지수육 레시피</h1>
+        <ul class="article-intro">
+            <li>조리 30분</li>
+            <li>초급</li>
+            <li>멋사 홍대</li>
+        </ul>
         <div class="article-contents">
-            <h1>부드럽고 잡내없는 돼지수육 레시피</h1>
-            <ul class="article-intro">
-                <li>조리 30분</li>
-                <li>초급</li>
-                <li>멋사 홍대</li>
-            </ul>
             <div class="recipe-items">
                 <h2>돼지수육 레시피 재료</h2>
                 <strong>[주재료]</strong>
@@ -96,11 +99,8 @@
             <button class="send-btn">보내기</button>
         </div>
         <div class="re-paging">
-            <div>
-        
-                <p class="re-left">prev</p>
-                <p class="re-right">next</p>
-            </div>
+                <div class="re-left">prev</div>
+                <div class="re-right">next</div>
         </div>
     </article>
 

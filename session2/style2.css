@@ -8,9 +8,19 @@
 
 header {
     width: 100%;
-    height: 130px;
+    height: 4em;
     background-color: #efefef;
     display: flex;
+}
+
+.nav-container{
+    display: flex;
+    margin: auto;
+    width: 1100px;
+    justify-content: space-between;
+
+    height: 40px;
+    object-fit: cover;
 }
 
 #navbar {
@@ -25,6 +35,11 @@ header {
     text-decoration: none;
 }
 
+.low-nav{
+    margin-bottom: 100px;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 10%);
+}
+
 /* stick navbar when scrolling down*/
 .sticky {
     position: fixed;
@@ -33,13 +48,18 @@ header {
 }
 
 article {
+    display: flex;
+    max-width: 1100px;
     align-items: center;
     text-align: center;
     flex-direction: column;
+    margin: auto;
 }
 
-article img {
-    width: 30vw;
+.recipe-contents img {
+    width: 1100px;
+    height: 733px;
+    object-fit: cover;
 }
 
 footer {
@@ -65,10 +85,18 @@ input{
 }
 
 .article-intro{
-    float: auto;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     text-align: center;
-   
+    padding: 14px;
+    text-decoration: none;
+}
+
+.article-intro li{
+    padding: 0 16px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
 }
 
 .logo {
@@ -101,8 +129,41 @@ input{
     color:#1560b6
 }
 
+p{
+    height: 68px;
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.re-paging{
+    padding: 35px 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .re-left{
+    float: left;
+    justify-content: center;
+    align-items: center;
+    width: 16%;
+    min-height: 68px;
     min-width: 68px;
-    padding-left: 88px;
     background: url(src/btn_cirLeft-default.gif) 0 0 no-repeat;
+    background-size: auto;
+}
+
+.re-right{
+    float: right;
+    justify-content: center;
+    align-items: center;
+    width:16%;
+    min-height: 68px;
+    min-width: 68px;
+    background: url(src/btn_cirRight-default.gif) right 0 no-repeat;
+    background-size: auto;
 }
