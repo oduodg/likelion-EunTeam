@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.center-title{
+    text-align: center;
+    margin-top: 200px;
+    
+}
+.point{
+    text-align: center;
+    margin-bottom: 50px;
+
+
+}
+
+.start {
+    text-align: center;
+    margin: 50px 210px 0px 210px;
+  }
+
+.ingredients{
+    background-color: #03CA7C;
+    border: 3px solid #025936;
+    text-align: center;
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px
+  
+  
+}
+
+.classname{
+    line-height: 5px;
+}
+
+
+.food-img-finish{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+
+.food-img{
+    width: 600px;
+  
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.summary{
+    background-color: #F6550F;
+    border: 3px solid #ebebeb;
+    text-align: center;
+    color: #ebebeb;
+    width: 610px;
+    margin: 300px auto 0 auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+figcaption {
+    margin-bottom: 200px;
+  }
+
+.box{
+    border: 1px solid #7C7A79;
+    width: 610px;
+    margin: 0 auto;
+}
+footer{
+    margin : 200px 0;
+    background-color: #000000;
+    color: #ebebeb;
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
