@@ -1,8 +1,8 @@
 import urllib.request
 import json
 
-client_ID = "xjWt8iT0npl6jyAv7FdX"
-client_Secret = "ltEcwYiR8H"
+client_ID = ""
+client_Secret = "abcd1234"
 
 encText = urllib.parse.quote("스파이더맨")
 
