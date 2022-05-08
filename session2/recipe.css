@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-size: 24px;                         
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+	width: 610px;
+	text-align: center;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.box {
+    font-size: 20px;                         
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+	width: 610px;
+	text-align: center;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.jinro {
+    width: 200px;
+    height: 120px;
+    text-align: center;
+
+}
+
+.food-img {
+    width: 600px;
+    height: 550px;
+    
+}
+
+.food-imgs {
+    width: 600px;
+    height: 400px;
+    
+}
+
+
+.main {
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.banner {
+    line-height: 10px;
+    font-size: 13px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 30px;
+
+}
+
+.contents {
+    border: #f5eded solid 1px;
+    border-radius: 10px 10px 0px 0px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    line-height: 10px;
+}
+
+footer {
+
+    background-color: #f9f9f9;
+    border: #f5eded solid 1px;
+    border-radius: 10px 10px 0px 0px;
+    width: 600px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    line-height: 10px;
+    text-align: center;
+
+}
+
+.text {
+    padding-bottom: 20px;
+}
+
+.mainbox {
+    width: 540px;
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #00CED1;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+    background-color: #AFEEEE;
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
+
+.title {
+    width: 600px;
+    font-size: 21px;                         
+    font-weight: bold;
+    margin: 0px;
+    background-color: #AFEEEE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px 10px 0px 0px; *
+
+}
