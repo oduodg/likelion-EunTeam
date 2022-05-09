@@ -4,8 +4,8 @@ import re
 
 headers = {
     'Host' : 'openaip.naver.com',
-    'X-Naver-Client-Id' : 'IY6h61h2zaaSoxnd7hO3',
-    'X-Naver-Client-Secret': 'AzoelCAY3B',
+    'X-Naver-Client-Id' : '',
+    'X-Naver-Client-Secret': '',
 }
 
 url = 'https://openapi.naver.com/v1/search/movie.json'
